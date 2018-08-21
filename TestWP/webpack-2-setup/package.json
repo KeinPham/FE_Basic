@@ -1,0 +1,21 @@
+{
+  "name": "webpack-2-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
