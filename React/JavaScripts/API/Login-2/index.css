@@ -1,0 +1,23 @@
+#login {
+    margin-top: 50px;
+    text-align: center;
+}
+#list-item {
+    margin-top: 50px;
+    width: 100%;
+    border: 2px solid #111;
+    border-radius: 5px;
+}
+.table-item {
+    margin: 15px
+ }
+ .table-item th {
+     width: 10%;
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ .zzz td {
+     padding: 10px 0px;
+     border:1px solid #111;
+     text-align: center;
+ }

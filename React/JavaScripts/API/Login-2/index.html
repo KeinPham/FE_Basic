@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logOut">
+            <input type="button" value="Thoát">
+        </div>
+        <section id="list-item">
+            <table class="table-item">
+                <thead>
+                    <tr>
+                        <th>Mã phiếu</th>
+                        <th>Seller</th>
+                        <th>Ngày tạo</th>
+                        <th>Kho đi</th>
+                        <th>Kho đến</th>
+                        <th>Loại chuyển</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                    <tr id="filter">
+                        <td>
+                            <input type="text" id="code" class="changeFillter">
+                        </td>
+                        <td>
+                            <select id="seller" class="changeFillter"></select>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Ngày Tạo" >
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <select id="type" class="changeFillter">
+                                <option value=" ">Tất cả</option>
+                                <option value="move_sale">Chuyển bán</option>
+                                <option value="move_regional">Chuyển liên khu vực</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="state" class="changeFillter">
+                                <option value=" ">Tất cả</option>
+                                <option value="draft">Chờ luân chuyển</option>
+                                <option value="tr_picking">Lấy hàng</option>
+                                <option value="tr_picked">Đang luân chuyển</option>
+                                <option value="done">Xong</option>
+                                <option value="cancel">Hủy</option>
+                            </select>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+    </div>
+    <div id="seller"></div>
+    <script src="../bootstrap-3.3.7/js/jquery3.3.1.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

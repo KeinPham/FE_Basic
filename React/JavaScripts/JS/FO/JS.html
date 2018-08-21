@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Setting FO</title>
+    <link rel="stylesheet" href="JS.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.7/css/jquery.timepicker.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="Save">
+            <input type="button" value="Lưu" class="save">
+        </div>
+        <div id="Clear">
+            <input type="button" value="Xóa" class="clear">
+        </div>
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-8 borderCnt">
+                <div id="appendWorkTime"></div><!--Append Ngày-->
+            </div>
+        </div>
+        <div class="enter"></div>
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-8 borderCnt">
+                <h2>Tự Động Ẩn Tất Cả Bình Luận</h2>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                </p>
+                <hr>
+                <h4><input type="checkbox" class="checkHiddenCmt"> Tự Động Ẩn Tất Cả Bình Luận</h4>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                </p>
+                <h4><input type="checkbox" class="checkHiddenCmt"> Tự Động Ẩn Tất Cả Bình Luận Có Số Điện Thoại</h4>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                </p>
+                <h4><input type="checkbox" class="checkHiddenCmt"> Ẩn Bình Luận Có Từ Khóa</h4>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                </p>
+            </div>
+        </div>
+        <div class="enter"></div>
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-8 borderCnt">
+                <h3> Tự Động Gắn Nhãn Vào Hội Thoại Có Chứa Từ Khóa</h3>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                </p>
+                <h4><input type="checkbox" class="checkAddTitle"> Tự Động Gắn Nhãn Vào Hội Thoại Có Chứa Số Điện Thoại</h4>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                </p>
+                <h4>Tên Nhãn</h4>
+                <p>Tên Nhãn Gắn Thẻ Trên Hội Thoại</p>
+                <input type="text" class="phoneN" placeholder="Số Điện Thoại">
+                <h4><input type="checkbox" class="checkAddTitle2"> Tự Động Gắn Nhãn Vào Hội Thoại Có Chứa Từ Khóa</h4>
+                <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+                    Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+                    <div class="row addCntTitle">
+                        <div class="col-xs-4 label-name">
+                            <b>Tên nhãn</b>
+                            <p>Tên nhãn được gắn trên hội thoại</p>
+                        </div>
+                        <div class="col-xs-4 label-keys">
+                            <b>Nhập Từ Khóa</b>
+                            <p>Bạn có thể nhập nhiều từ khóa <br>
+                            Mỗi từ khóa được tách bằng dấu (,).</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ul id="appendInput">
+                        <li class="label-item">
+                            <input type="text"  class="title-name">
+                            <input type="text"  class="title-key">
+                        </li>
+                    </ul>
+                <input type="button" value="+ Thêm" class="appendInput">
+            </div>
+        </div>
+        <div class="enter"></div>
+    </div>
+
+    <script type="text/javascript" src="../bootstrap-3.3.7/js/jquery3.3.1.min.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7/js/jquery.timepicker.min.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JS.js"></script>
+</body>
+</html>

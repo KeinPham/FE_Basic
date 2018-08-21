@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+    <div class="container">
+        <div id="logOut">
+            <input type="button" value="Thoát">
+        </div>
+        <section id="login">
+                <input class="idEmail" type="text" placeholder="Email">
+            <div style="margin: 10px 0px"></div>
+                <input class="idPassword" type="password" placeholder="Password">
+
+            <div style="margin: 10px 0px"></div>
+            <a href=""></a>    <input class="idLogin" type="button" value="Login">
+        </section>
+        <section id="filter">
+            <select name="transfer_type" id="transfer_type">
+                <option>Tất Cả</option>
+                <option value="move_sale">Chuyển Bán</option>
+                <option value="move_regional">Chuyển Khu Vực</option>
+            </select>
+        </section>
+        <section id="list-item">
+            <table class="table-item">
+                <th>Mã</th>
+                <th>Seller</th>
+                <th>Ngày Tạo</th>
+                <th>Kho Đi</th>
+                <th>Kho Đến</th>
+                <th>Loại Chuyển</th>
+                <th>Trạng Thái</th>
+            </table>
+        </section>
+    </div>
+    <script src="../bootstrap-3.3.7/js/jquery3.3.1.min.js"></script>
+    <script src="./Login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+.enter {
+    margin-bottom: 10px;
+}
+.timeBoss {
+    width: 60%;
+    text-align: center;
+}
+.borderCnt{
+    border-radius: 20px;
+    background-color: #eee;
+    padding: 10px;
+}
+.addCntTitle {
+    margin-bottom: 20px;
+}
+#Save {
+    position: fixed;
+}
+#Clear {
+    position: fixed;
+    margin-left: 50px;
+}
+#appendInput {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.label-item {
+    margin: 20px 0px;
+    position: relative;
+}
+.title-name,
+.title-key {
+    margin-right: 20px;
+    width: 30%;
+}
